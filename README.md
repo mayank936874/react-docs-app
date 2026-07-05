@@ -1,20 +1,109 @@
-<<<<<<< HEAD
-# React + Vite
+# 📄 React Docs App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern document management UI built with **React**, **Vite**, **Tailwind CSS**, and **Framer Motion**. This project demonstrates responsive UI design, reusable React components, and draggable cards with smooth animations.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 📄 Beautiful document card UI
+- 🎨 Responsive design using Tailwind CSS
+- 🖱️ Draggable cards with Framer Motion
+- ⚡ Fast development with Vite
+- ♻️ Reusable React components
+- 📱 Mobile-friendly layout
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
-=======
-# react-docs-app
->>>>>>> 824f96a70f43f28bfb61cf9b8f55adefa1937fd2
+- React
+- Vite
+- Tailwind CSS v4
+- Framer Motion
+- React Icons
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+│
+├── assets/
+├── components/
+│   ├── Background.jsx
+│   ├── Card.jsx
+│   └── Foreground.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/mayank936874/react-docs-app.git
+```
+
+Move into the project
+
+```bash
+cd react-docs-app
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📸 Preview
+
+(Add screenshots here after completing the project.)
+
+---
+
+## 🎯 Learning Outcomes
+
+Through this project I learned:
+
+- React component architecture
+- Props and reusable components
+- Dynamic rendering using `map()`
+- State management with `useState`
+- DOM references with `useRef`
+- Drag-and-drop interactions using Framer Motion
+- Responsive UI development with Tailwind CSS
+
+---
+
+## 📌 Future Improvements
+
+- Add backend integration
+- Store documents in MongoDB
+- User authentication
+- File upload functionality
+- Search and filter documents
+
+---
+
+## 👨‍💻 Author
+
+**Mayank Porwal**
+
+- LinkedIn: https://www.linkedin.com/in/mayank-porwal-4854b12a7/
+- GitHub: https://github.com/mayank936874
